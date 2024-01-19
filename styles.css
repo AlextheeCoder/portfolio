@@ -54,6 +54,21 @@ nav ul li a.hire-me:hover {
 .intro img {
     border-radius: 50%;
     width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.intro img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    animation: bobble 0.4s ease infinite alternate;
+}
+@keyframes bobble {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, -5px);
+    }
 }
 
 .learn-more {
@@ -174,7 +189,12 @@ nav ul li a.hire-me:hover {
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     cursor: pointer;
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    outline: 2px solid #56ff47;
 }
+
+
 
 .services h1{
     font-size: 3em;
