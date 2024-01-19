@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const href = this.getAttribute('href');
         const target = document.querySelector(href);
 
-        // Scroll smoothly to the target section
+        
         target.scrollIntoView({
             behavior: 'smooth'
         });
