@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Lemon&family=Oswald:wght@400;700&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
     <title>My portfolio</title>
 </head>
 <body>
@@ -15,32 +14,35 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Services</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#" class="hire-me">Hire Me</a></li>
         </ul>
     </nav>
     <main>
-        <div class="intro">
+        <div id="home" class="intro">
             <div class="text">
                 <h1>I'm Developer</h1>
                 <h2>Alex Mwai Muthee</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                <p>A magician crafting eye-catching, user-loved things</p>
                 <button class="learn-more">Learn more</button>
             </div>
             <img src="me.png" alt="my image">
         </div>
         
-        <div class="about-me">
+        <div id="about" class="about-me">
             <h1>About Me</h1>
-            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <h3>I am a Full-stack developer dedicated to enhancing individuals' lives through engaging digital interactions.</h3>
            
             <div class="about-content">
                 <div class="about-text">
                     <div class="p-text">
                         <h2>Developing With A Passion While Exploring The World.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>I'm a fourth-year student at Strathmore University, deeply passionate about technology. Coding is my forte, and I find joy in working with various technologies, including Python for AI, React and Express/Node for web apps, Laravel for backend development, and Java. My journey in IT includes significant experience working on a major government project, which has given me practical insights and skills.
+
+                            I love the challenge of creating intelligent systems, especially in the intersection of AI and IoT. The dynamic nature of technology excites me, and I stay engaged with the latest trends and advancements. Being part of the tech world allows me to continuously learn and apply my knowledge to real-world problems.
+                            
+                            Whether it's developing smart solutions, contributing to open-source projects, or networking with professionals in the field, I thrive on the opportunities that the tech ecosystem offers. As I navigate through my fourth year and beyond, I'm eager to explore new horizons and contribute to innovative projects that make a meaningful impact.</p>
                     </div>
                 </div>
                 <div class="laptop-image" >
@@ -51,32 +53,36 @@
             <button class="contact-me">Contact Me</button>
         </div>
 
-        <div class="services">
+        <div id="services" class="services">
             <h1>My Services</h1>
             <p>Explore the range of services I offer to meet your needs.</p>
             <div class="cards">
                 <div class="card">
-                    <h2>UI/UX Design</h2>
-                    <p>Create visually stunning and user-friendly designs that leave a lasting impression.</p>
+                    <h2>Data Science Solutions</h2>
+                    <p>In the realm of data science, I utilize Python's extensive libraries and tools to conduct thorough data analysis, applying statistical methods and creating insightful visualizations. My machine learning expertise spans across Python, enabling the development of predictive models, classification systems, and recommendation engines.
+
+                        Whether it's extracting meaningful insights from data or transforming complex datasets into comprehensible visualizations, my data science services are designed to empower clients with actionable intelligence.</p>
                 </div>
                 <div class="card">
-                    <h2>Digital Marketing</h2>
-                    <p>Boost your online presence and reach your target audience with our effective digital marketing strategies.</p>
+                    <h2>Multi-Language Development</h2>
+                    <p>My expertise spans across Java, Python, and C++, providing clients with versatile and comprehensive software solutions.
+
+                        From Java's platform-independent capabilities for building robust applications to Python's readability and adaptability across various domains, and C++'s high-performance capabilities suitable for resource-intensive applications, I bring a well-rounded set of skills to cater to diverse software development needs.</p>
                 </div>
                 <div class="card">
                     <h2>Web Development</h2>
-                    <p>Turn your ideas into reality with our skilled web development team, ensuring a seamless online experience.</p>
+                    <p>Harnessing the power of both Laravel and the MERN stack, I craft dynamic and responsive web applications. Whether it's utilizing the elegance of Laravel's PHP framework or the flexibility of MongoDB, Express.js, React.js, and Node.js in the MERN stack, I create modern, scalable, and feature-rich web solutions tailored to client requirements. </p>
                 </div>
             </div>
         </div>
         
-        <div class="closing">
+        <div id="contact" class="closing">
             <h1>Stay In Touch</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <p>Any Questions? Hit me up. How about starting to build something incredible together?</p>
             <hr>
             <div class="subscribe">
                 <input type="email" placeholder="Enter your email address">
-                <button>Subscribe</button>
+                <button>Let's Talk</button>
             </div>
         </div>
     </main>

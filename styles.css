@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 nav {
@@ -48,7 +48,7 @@ nav ul li a.hire-me:hover {
     gap: 20px;
     text-align: center;
     padding: 40px;
-    background-color: #f1dada;
+    background: linear-gradient(to right, #ff9a9e, #fecfef);
 }
 
 .intro img {
@@ -59,11 +59,11 @@ nav ul li a.hire-me:hover {
 .learn-more {
     background-color: #ff6347;
     color: #fff;
-    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    padding: 12px 20px;
 }
 
 .learn-more:hover {
@@ -86,6 +86,7 @@ nav ul li a.hire-me:hover {
 }
 .about-me h1{
     text-decoration: underline;
+    font-family: 'Lemon', serif;
 }
 
 
@@ -147,7 +148,7 @@ nav ul li a.hire-me:hover {
 .services{
     text-align: center;
     padding: 2em;
-    background-color: #f1dada;
+    background: linear-gradient(to right, #ff9a9e, #fecfef);
 }
 
 .cards {
@@ -167,6 +168,7 @@ nav ul li a.hire-me:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 .card:hover {
@@ -184,6 +186,7 @@ nav ul li a.hire-me:hover {
     color: #113958;
     font-size: 1.5em;
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 
